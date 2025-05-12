@@ -1,0 +1,63 @@
+body {
+  transition: background-image  1s;
+  background-image: url('https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=wes-hicks-MEL-jJnm7RQ-unsplash.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+  .container {
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #ff6a00;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #e65c00;
+  }
+  
+  .results {
+    margin-top: 20px;
+  }
+  
+  .results a {
+    display: block;
+    color: #fff;
+    background: rgba(255,255,255,0.1);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .results a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
